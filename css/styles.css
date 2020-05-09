@@ -103,7 +103,9 @@ body {
   margin-top: 117px;
   max-width: 50%;
 }
-
+input::placeholder {
+  color: rgba(19, 39, 67, 0.5);
+}
 .first_name {
   margin-right: 26px;
   background: white;
@@ -117,12 +119,13 @@ body {
   line-height: 19px;
   width: 255px;
   height: 60px;
-  color: rgba(19, 39, 67, 0.5);
+  color:black;
   padding-left: 31px;
 }
 .first_name:hover {
   border: 1px solid #ed4c5c;
 }
+
 .last_name {
   border: 1px solid #333333;
   box-sizing: border-box;
@@ -135,7 +138,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: rgba(19, 39, 67, 0.5);
+  color:black;
   padding-left: 31px;
 }
 
@@ -154,7 +157,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: rgba(19, 39, 67, 0.5);
+  color:black;;
   padding-left: 31px;
 }
 
